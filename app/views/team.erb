@@ -1,12 +1,8 @@
 <h1><%= @input[:name] %></h1>
 <h2>Team Motto: <%= @input[:motto] %></h2>
 
-<%= @input[:member].each do |x, y| %>
+<%= @input[:members].each do |x, y| %>
   <h2>Hero Name: <%=  %></h2>
   <p>Hero power: <%=  %></p>
   <p>p> Hero biography: <%=  %></p>
 <%= end %>
-
-  <h2>Hero Name: <%=  %></h2>
-  <p>Hero power: <%=  %></p>
-  <p>p> Hero biography: <%=  %></p>
