@@ -9,8 +9,8 @@ class App < Sinatra::Base
     end
     
     post '/teams' do
-      #@input = params[:team]
-      erb :test
+      @input = params[:team]
+      erb :team
     end
 
 end
